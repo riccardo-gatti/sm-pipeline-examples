@@ -2,8 +2,6 @@ import sagemaker
 from sagemaker.jumpstart.model import JumpStartModel
 from sagemaker.jumpstart.estimator import JumpStartEstimator
 
-# TODO: Endpoint name is just for dev, remove for final version
-
 def jumpstart_deploy(model, finetune_step_ret=None):
 
     model_id = model["model_id"]
